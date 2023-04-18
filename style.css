@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.3fr 2.5fr 0.2fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "HEADER-1 HEADER-1 HEADER-1"
+    "MAIN-1 MAIN-1 MAIN-1"
+    ". . ."; 
+}
+
+.MAIN-1 { 
+    grid-area: MAIN-1; 
+}
+
+.HEADER-1 { 
+    grid-area: HEADER-1; 
+}
