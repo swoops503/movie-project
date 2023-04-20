@@ -13,10 +13,11 @@ body {
     ". . ."; 
 }
 
+.HEADER-1 { 
+    grid-area: HEADER-1; 
+}
+
 .MAIN-1 { 
     grid-area: MAIN-1; 
 }
 
-.HEADER-1 { 
-    grid-area: HEADER-1; 
-}
